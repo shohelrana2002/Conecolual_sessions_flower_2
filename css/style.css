@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .banner-text {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+.banner .banner-text h2 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+p {
+  margin-bottom: 32px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+button {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 15px 28px;
+  transition: all 1s;
+}
+button:hover {
+  background-color: #ff0000;
+}
+
+.banner .banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Our Featured Flowers start */
+
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+.section-heading h2 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+}
+
+#featured {
+  padding: 100px 0;
+}
+
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+}
+.section-content .flower-img {
+  border-radius: 300px 300px 0px 0px;
+  /* background: rgba(167, 33, 98, 0.15); */
+  background-color: rgb(247, 34, 148);
+  height: 440px;
+  padding: 30px 15px 0;
+  display: flex;
+  align-items: end;
+}
+.section-content .flower-img img {
+  width: 100%;
+}
+
+.section-content .pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .blue {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.section-content .green {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content p {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 16px;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* extar start */
+
+.book-red {
+  width: 75%;
+  display: flex;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  gap: 20px;
+  border-radius: 8px;
+  margin: auto;
+  padding-top: 40px;
+}
+.img-book {
+  text-align: center;
+}
+.img-book img {
+  margin: 10px auto;
+  width: 50px;
+  padding: 0px 10px;
+}
+
+.book-red h6 {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 20px; /* 145.833% */
+}
